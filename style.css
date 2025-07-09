@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+.merriweather-merri{
+  font-family: "Merriweather";
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    margin: 0 140px;
+}
+.hero-section{
+    background-image: url('./images/BannerImage.png');
+    height: 450px;
+    background-size: cover;
+}
+.hero-inner{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.331);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.hero-inner h4{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+}
+.hero-inner h1{
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+}
+.off-section{
+    text-align: center;
+    margin: 40px 0;
+}
+.off-section h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: rgb(255, 0, 0);;
+}
+.off-section h5{
+   font-size: 20px;
+   font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(255, 0, 0);;
+}
+.off-section h2{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+   
+}
+.off-section img{
+    width: 700px;
+    height: 400px;
+    margin: 60px 0;
+}
+
+.welcome-section{
+    background-image: url('./images/Vectorrr.png');
+    height: 450px;
+    background-size: cover;
+    margin: 60px 0;
+}
+.welcome-inner{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+   
+    
+}
+.welcome-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 100px;
+}
+.welcome-inner img{
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+}
+.welcome-title{
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 24px;
+}
+.welcome-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+.join{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    padding: 12px 24px;
+    border: none;
+    outline: gainsboro solid 1px;
+    border-radius: 10px;
+}
+
