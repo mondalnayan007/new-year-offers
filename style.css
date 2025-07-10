@@ -10,7 +10,7 @@
   font-variation-settings:
     "wdth" 100;
 }
-body{
+.margin{
     margin: 0 140px;
 }
 .hero-section{
@@ -117,4 +117,206 @@ body{
     outline: gainsboro solid 1px;
     border-radius: 10px;
 }
+.place{
+    text-align: center;
+    padding: 80px 300px;
+    border-radius: 10px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.place h3{
+    font-size: 25px;
+font-weight: 600;
+}
+.place span{
+    color: #FF0000;
+}
+.offer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+    
+}
+.column-title{
+    font-size: 20px;
+   font-weight: 500;
+   color: #FF0000;
+   margin: 0;
 
+}
+.column-subtitle{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0 ;
+}
+.column-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 15px;
+     font-weight: 400;
+}
+.column .offer{
+    width: 280px;
+    height: 280px;
+   margin: 40px 100px 40px 70px;
+   padding: 20px;
+  outline: 12px solid rgb(255, 0, 0);
+   border-radius: 100%;
+   
+}
+.title{
+        color: rgb(255, 0, 0);
+        
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0;
+}
+.column .happy{
+    height: 80px;
+    width: 80px;
+}
+.holidays-section{
+    text-align: center;
+    padding: 20px 80px;
+}
+.holidays-title{
+    font-size: 20px;
+font-weight: 500;
+margin: 0;
+}
+.holidays-subtitle{
+    font-size: 60px;
+font-weight: 900;
+margin: 12px 0 25px 0;
+}
+.holidays-subtitle span{
+    color: rgb(255, 0, 0);
+}
+.holidays-description{
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.discount-section{
+    display: flex;
+   
+    background-image: url('./images/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+.gift-box{
+    margin-left: -100px;
+}
+.discount{
+    margin-top: 70px;
+}
+
+.portfolio-section{
+    margin: 40px 0;
+}
+
+.portfolio-title{
+    color: rgb(255, 0, 0);
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.portfolio-subtitle{
+    color: rgb(7, 2, 17);
+    margin: 16px 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.6);
+    padding-right: 300px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.product-section{
+    margin: 40px 0;
+}
+.rows{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 15px;
+}
+.product-section img{
+    width: 320px;
+    height: 350px;
+}
+
+.newsletter{
+    text-align: center;
+    padding: 30px 120px;
+    background-color: #fff2f2;
+}
+.newsletter-title{
+    font-size: 36px;
+font-weight: 900;
+margin: 0;
+}
+.newsletter-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.newsletter-inputs input{
+    height: 35px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+.newsletter-inputs button{
+    height: 55px;
+    background-color: #FF0000;
+    color: white;
+     padding: 10px 20px;
+    border-radius: 0 50px  50px 0;
+    border: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.footer-rows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-section{
+    padding: 0 140px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.right-side img{
+    height: 17px;
+    width: 17px;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.footer-icons img{
+    height: 45px;
+    width: 45px;
+}
